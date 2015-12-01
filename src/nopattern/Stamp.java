@@ -26,5 +26,7 @@ public abstract class Stamp {
 	}
 
 	public abstract void paint(Graphics2D g);
+	
+	
 
 }

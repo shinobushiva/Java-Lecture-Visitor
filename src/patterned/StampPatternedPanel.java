@@ -13,8 +13,8 @@ public class StampPatternedPanel extends JPanel {
 
 	private StampDrawVisitorPatterned drawVisitor;
 
-	// private StampClassNameVisitorPatterned nameVisitor = new
-	// StampClassNameVisitorPatterned();
+	 private StampClassNameVisitorPatterned nameVisitor = new
+	 StampClassNameVisitorPatterned();
 
 	public StampPatternedPanel(StampDrawVisitorPatterned v) {
 		this.drawVisitor = v;
@@ -34,7 +34,7 @@ public class StampPatternedPanel extends JPanel {
 		// 全てのスタンプに対してビジターが訪問
 		stamps.stream().forEach((x) -> {
 			x.visit(drawVisitor);
-			// x.visit(nameVisitor);
+			 x.visit(nameVisitor);
 			});
 	}
 
