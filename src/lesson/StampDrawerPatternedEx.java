@@ -15,7 +15,7 @@ public class StampDrawerPatternedEx extends StampDrawVisitorPatterned {
 	 * 
 	 * @param s
 	 */
-	public void draw(RectangleStampPatterned r) {
+	public void visited(RectangleStampPatterned r) {
 		// この部分を実装する
 	}
 
