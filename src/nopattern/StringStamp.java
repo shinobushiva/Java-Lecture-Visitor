@@ -4,7 +4,7 @@ import java.awt.Graphics2D;
 import java.awt.Point;
 
 /**
- * Visitorパターンを利用した文字列のスタンプ
+ * Visitorパターンを利用しない文字列のスタンプ
  * 
  * @author shiva
  *

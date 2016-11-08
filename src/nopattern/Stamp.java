@@ -4,7 +4,7 @@ import java.awt.Graphics2D;
 import java.awt.Point;
 
 /**
- * Visitorパターンを利用したスタンプの基底クラス
+ * Visitorパターンを利用しないスタンプの基底クラス
  * 
  * @author shiva
  *
@@ -26,7 +26,6 @@ public abstract class Stamp {
 	}
 
 	public abstract void paint(Graphics2D g);
-	
 	
 
 }
