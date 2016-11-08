@@ -21,7 +21,7 @@ public class StampPanel extends JPanel {
 
 		Graphics2D g2d = (Graphics2D) g;
 
-		// 全てのスタンプのdrawメソッドを呼び出し
+		// 全てのスタンプのpaintメソッドを呼び出し
 		stamps.stream().forEach((x) -> {
 			x.paint(g2d);
 		});
